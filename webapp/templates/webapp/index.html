@@ -1,0 +1,27 @@
+{% extends "webapp/base.html" %}
+{% load static %}
+
+{% block content%}
+    <body>
+        <br>
+        <br>
+
+        <div class="text-center">
+            <h3> Project CRM - Blosher Brar </h3>
+            <br>
+            <hr>
+            <h5> Keep track of your records </h5>
+
+            <br>
+
+            <a class="btn btn-info" type="button" href="{% url 'my-login'%}"> Login </a>
+            <br>
+            <br>
+            <a class="btn btn-primary" type="button" href="{% url 'register'%}"> Create your account </a>
+
+        </div>
+
+    </body>
+
+{% endblock %}
+
